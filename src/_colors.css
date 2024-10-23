@@ -1,0 +1,134 @@
+/* Every update in this file should be also done in colors.mdx file  */
+
+:root[data-theme="legacy-light"] {
+  --background-primary: var(--vp-core-color-white);
+  --background-primary-reverse: var(--vp-core-color-grey-950);
+  --background-secondary: var(--vp-core-color-grey-050);
+  --background-tertiary: var(--vp-core-color-grey-100);
+  --background-brand-primary: var(--vp-core-color-blue-400);
+  --background-brand-secondary: var(--vp-core-color-blue-050);
+  --background-positive: var(--vp-core-color-conifer-100);
+  --background-accent: var(--vp-core-color-yellow-400);
+  --background-warning: var(--vp-core-color-orange-100);
+  --background-alert: var(--vp-core-color-red-400);
+
+  --content-primary: var(--vp-core-color-grey-950);
+  --content-secondary: var(--vp-core-color-grey-600);
+  --content-tertiary: var(--vp-core-color-grey-500);
+  --content-action: var(--vp-core-color-blue-450);
+  --content-active: var(--vp-core-color-blue-400);
+  --content-primary-reverse: var(--vp-core-color-white);
+  --content-inactive: var(--vp-core-color-grey-400);
+  --content-positive: var(--vp-core-color-conifer-400);
+  --content-warning: var(--vp-core-color-orange-400);
+  --content-negative: var(--vp-core-color-red-400);
+
+  --border-primary: var(--vp-core-color-grey-200);
+  --border-primary-reverse: var(--vp-core-color-grey-950);
+  --border-secondary: var(--vp-core-color-grey-100);
+  --border-tertiary: var(--vp-core-color-white);
+  --border-active: var(--vp-core-color-blue-400);
+  --border-inactive: var(--vp-core-color-grey-400);
+
+  --decorative-cobalt: var(--vp-core-color-blue-100);
+  --decorative-gold: var(--vp-core-color-yellow-100);
+  --decorative-emerald: var(--vp-core-color-green-100);
+  --decorative-gravel: var(--vp-core-color-grey-100);
+  --decorative-jade: var(--vp-core-color-conifer-100);
+  --decorative-saffron: var(--vp-core-color-orange-100);
+  --decorative-brick: var(--vp-core-color-red-100);
+
+  --cta-hover-primary: #005e96;
+  --cta-hover-alert: #b92229;
+
+  --cta-active-primary: #004a76;
+  --cta-active-alert: #881d26;
+}
+
+:root[data-theme="legacy-dark"] {
+  --background-primary: var(--vp-core-color-grey-900);
+  --background-primary-reverse: var(--vp-core-color-white);
+  --background-secondary: var(--vp-core-color-grey-950);
+  --background-tertiary: var(--vp-core-color-grey-800);
+  --background-brand-primary: var(--vp-core-color-blue-300);
+  --background-brand-secondary: var(--vp-core-color-blue-700);
+  --background-positive: var(--vp-core-color-green-600);
+  --background-accent: var(--vp-core-color-yellow-400);
+  --background-warning: var(--vp-core-color-orange-600);
+  --background-alert: var(--vp-core-color-red-300);
+
+  --content-primary: var(--vp-core-color-white);
+  --content-secondary: var(--vp-core-color-grey-200);
+  --content-tertiary: var(--vp-core-color-grey-300);
+  --content-action: var(--vp-core-color-blue-200);
+  --content-active: var(--vp-core-color-blue-300);
+  --content-primary-reverse: var(--vp-core-color-grey-950);
+  --content-inactive: var(--vp-core-color-grey-500);
+  --content-positive: var(--vp-core-color-conifer-300);
+  --content-warning: var(--vp-core-color-orange-300);
+  --content-negative: var(--vp-core-color-red-300);
+
+  --border-primary: var(--vp-core-color-grey-700);
+  --border-secondary: var(--vp-core-color-grey-950);
+  --border-tertiary: var(--vp-core-color-grey-800);
+  --border-active: var(--vp-core-color-blue-300);
+  --border-inactive: var(--vp-core-color-grey-500);
+
+  --decorative-cobalt: var(--vp-core-color-blue-600);
+  --decorative-gold: var(--vp-core-color-yellow-700);
+  --decorative-emerald: var(--vp-core-color-green-600);
+  --decorative-gravel: var(--vp-core-color-grey-600);
+  --decorative-jade: var(--vp-core-color-conifer-700);
+  --decorative-saffron: var(--vp-core-color-orange-600);
+  --decorative-brick: var(--vp-core-color-red-600);
+
+  --cta-hover-primary: #318cc3;
+  --cta-hover-alert: #fc8d92;
+
+  --cta-active-primary: #63a7d0;
+  --cta-active-alert: #fba8ac;
+}
+
+:root[data-theme="play-light"] {
+  --background-primary: var(--vp-core-color-white);
+  --background-primary-reverse: var(--vp-core-color-rock-900);
+  --background-secondary: var(--vp-core-color-cobalt-010);
+  --background-tertiary: var(--vp-core-color-cobalt-010);
+  --background-brand-primary: var(--vp-core-color-cobalt-500);
+  --background-brand-secondary: var(--vp-core-color-white);
+  --background-positive: var(--vp-core-color-mint-100);
+  --background-accent: var(--vp-core-color-gold-400);
+  --background-warning: var(--vp-core-color-orange-100);
+  --background-alert: var(--vp-core-color-red-400);
+
+  --content-primary: var(--vp-core-color-rock-900);
+  --content-secondary: var(--vp-core-color-rock-400);
+  --content-tertiary: var(--vp-core-color-rock-400);
+  --content-action: var(--vp-core-color-cobalt-500);
+  --content-active: var(--vp-core-color-cobalt-600);
+  --content-primary-reverse: var(--vp-core-color-white);
+  --content-inactive: var(--vp-core-color-rock-200);
+  --content-positive: var(--vp-core-color-mint-800);
+  --content-warning: var(--vp-core-color-orange-400);
+  --content-negative: var(--vp-core-color-red-400);
+
+  --border-primary: var(--vp-core-color-rock-200);
+  --border-secondary: var(--vp-core-color-rock-020);
+  --border-tertiary: var(--vp-core-color-white);
+  --border-active: var(--vp-core-color-cobalt-600);
+  --border-inactive: var(--vp-core-color-white);
+
+  --decorative-cobalt: var(--vp-core-color-cobalt-100);
+  --decorative-gold: var(--vp-core-color-yellow-100);
+  --decorative-emerald: var(--vp-core-color-green-100);
+  --decorative-gravel: var(--vp-core-color-grey-100);
+  --decorative-jade: var(--vp-core-color-conifer-100);
+  --decorative-saffron: var(--vp-core-color-orange-100);
+  --decorative-brick: var(--vp-core-color-red-100);
+
+  --cta-hover-primary: #2e3897;
+  --cta-hover-alert: #ae061e;
+
+  --cta-active-primary: #262e76;
+  --cta-active-alert: #87081a;
+}
